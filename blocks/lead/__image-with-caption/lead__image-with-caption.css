@@ -1,0 +1,20 @@
+.lead__image-with-caption {
+    max-width: 78%;
+    margin: 64px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .lead__image-with-caption {
+        max-width: 90.6%;
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image-with-caption {
+        max-width: 100%;
+    }
+}

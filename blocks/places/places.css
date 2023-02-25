@@ -1,3 +1,16 @@
 .places {
+    padding-left: 11%;
+    max-width: 78%;
+}
 
+@media screen and (max-width: 1024px) {
+    .places {
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        padding-left: 24px;
+    }
 }

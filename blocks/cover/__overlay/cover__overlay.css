@@ -1,3 +1,16 @@
 .cover__overlay {
+    position: relative;
+    top: -496px;
+    margin-bottom: -496px;
+    z-index: -1;
+    max-width: 93.5%;
+    background-color: #2A2C2F;
+    opacity: 0.7;
+}
 
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        left: 0;
+        max-width: 100%;
+    }
 }
