@@ -1,8 +1,12 @@
 .cover {
-    margin-top: 345px;
+    margin: 92px auto 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    position: relative;
+    width: 92.5%;
+    aspect-ratio: 8/5;
 }
 
 @media screen and (max-width: 1024px) {

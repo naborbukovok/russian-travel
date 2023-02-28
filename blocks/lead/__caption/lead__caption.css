@@ -7,3 +7,10 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
+
+/* Для плавного сдвига подписи вправо (на разрешениях, где картинка занимает почти весь экран). */
+@media screen and (max-width: 964px) {
+    .lead__caption {
+        padding-left: min(calc(1691px - 184.6%), 24px);
+    }
+}
