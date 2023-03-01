@@ -5,3 +5,17 @@
     justify-content: space-between;
     width: calc(100% - 96px);
 }
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        padding-left: calc(9.375% - 48px);
+        padding-right: calc(9.375% - 48px);
+        width: calc(81.25% + 96px);
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-top: 88px;
+    }
+}

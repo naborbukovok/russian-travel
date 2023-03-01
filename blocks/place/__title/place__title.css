@@ -9,16 +9,16 @@
 
 @media screen and (max-width: 1024px) {
     .place__title {
-        padding-right: 3.451%;
-        width: 47.454%;
+        padding-right: calc(3.451% + 12px);
+        width: calc(47.454% - 12px);
+        font-size: calc((100vw - 768px)/(1024 - 768) * (72 - 42) + 42px);
+        line-height: calc((100vw - 768px)/(1024 - 768) * (76 - 46) + 46px);
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
-        padding-right: 3.451%;
-        width: 47.454%;
-        font-size: 42px;
-        line-height: 46px;
+        padding-right: calc(3.889% + 12px);
+        width: calc(47.222% - 12px);
     }
 }
