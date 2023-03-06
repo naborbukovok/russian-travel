@@ -10,3 +10,15 @@
         margin-top: 56px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .lead__image-with-caption {
+        margin-top: calc((100vw - 320px)/(768 - 320) * (56 - 40) + 40px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image-with-caption {
+        margin-top: 40px;
+    }
+}

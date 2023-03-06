@@ -14,3 +14,15 @@
         padding-left: min(calc(1691px - 184.6%), 24px);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        padding-left: calc((100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        padding-left: 16px;
+    }
+}

@@ -7,3 +7,19 @@
     line-height: 76px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        font-size: calc((100vw - 320px)/(768 - 320) * (72 - 32) + 32px);
+        line-height: calc((100vw - 320px)/(768 - 320) * (76 - 35) + 35px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        /* TODO: убрать max-width */
+        max-width: 250px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

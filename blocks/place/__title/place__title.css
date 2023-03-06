@@ -20,5 +20,21 @@
     .place__title {
         padding-right: calc(3.889% + 12px);
         width: calc(47.222% - 12px);
+        font-size: calc((100vw - 320px)/(768 - 320) * (42 - 32) + 32px);
+        line-height: calc((100vw - 320px)/(768 - 320) * (46 - 35) + 35px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .place__title {
+        padding: 0 16px 0;
+        width: calc(100% - 32px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
     }
 }

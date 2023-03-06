@@ -1,0 +1,8 @@
+.line-link {
+    color: #FFFFFF;
+    transition: opacity 0.5s;
+}
+
+.line-link:hover {
+    opacity: 0.8;
+}

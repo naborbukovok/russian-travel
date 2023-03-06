@@ -7,3 +7,19 @@
     line-height: 22px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .cover__subtitle {
+        margin-top: calc((100vw - 320px)/(768 - 320) * (32 - 16) + 16px);
+        font-size: calc((100vw - 320px)/(768 - 320) * (18 - 14) + 14px);
+        line-height: calc((100vw - 320px)/(768 - 320) * (22 - 16) + 16px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__subtitle {
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

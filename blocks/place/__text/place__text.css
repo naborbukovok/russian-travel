@@ -1,4 +1,11 @@
 .place__text {
     padding-top: 48px;
-    max-width: 48.5%;
+    width: 48.5%;
+}
+
+@media screen and (max-width: 480px) {
+    .place__text {
+        padding: 32px 16px 0;
+        width: calc(100% - 32px);
+    }
 }
