@@ -1,9 +1,16 @@
 .places {
-    padding-top: 12px;
+    padding-top: 92px;
 }
 
 @media screen and (max-width: 768px) {
     .places {
-        padding-top: 15px;
+        padding-top: 89px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .places {
+        padding-top: 64px;
+
     }
 }
